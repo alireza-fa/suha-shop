@@ -1,0 +1,8 @@
+<div class="card user-info-card">
+    <div class="card-body p-4 d-flex align-items-center">
+        <div class="user-profile me-3"><img src="{{ request.user.image.url }}" alt="{{ request.user.username }}"></div>
+        <div class="user-info">
+            <p class="mb-0 text-dark">{{ request.user.username }}</p>
+        </div>
+    </div>
+</div>

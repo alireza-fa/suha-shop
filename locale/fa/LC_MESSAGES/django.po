@@ -1,0 +1,622 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-20 10:59+0430\n"
+"PO-Revision-Date: 2022-06-21 12:54+0326\n"
+"Last-Translator: Anonymous User <alirezafeyze44@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: A/settings.py:129
+msgid "Persian"
+msgstr ""
+
+#: A/settings.py:130
+msgid "English"
+msgstr ""
+
+#: accounts/apps.py:8
+msgid "accounts"
+msgstr ""
+
+#: accounts/forms.py:14
+msgid "password"
+msgstr ""
+
+#: accounts/forms.py:15
+msgid "confirm password"
+msgstr ""
+
+#: accounts/forms.py:36
+msgid "you can change password using <a href=\"../password/\">this link</a>"
+msgstr ""
+
+#: accounts/forms.py:67
+msgid "This phone number already exists."
+msgstr ""
+
+#: accounts/forms.py:86
+msgid "This email already exists."
+msgstr ""
+
+#: accounts/forms.py:91
+msgid "Profile picture must be less than 50kb"
+msgstr ""
+
+#: accounts/forms.py:99
+msgid "Post number is equal to 10."
+msgstr ""
+
+#: accounts/forms.py:110
+msgid "Password cannot be less than 8 characters."
+msgstr ""
+
+#: accounts/forms.py:111
+msgid "Password cannot be greater than 32 characters."
+msgstr ""
+
+#: accounts/forms.py:125
+msgid "Invalid password."
+msgstr ""
+
+#: accounts/forms.py:131
+msgid "New password and confirmation password don't match"
+msgstr ""
+
+#: accounts/forms.py:145 core/forms.py:18
+msgid "Your phone number"
+msgstr ""
+
+#: accounts/forms.py:190 accounts/forms.py:196
+msgid "Invalid code."
+msgstr ""
+
+#: accounts/models.py:8
+msgid "username"
+msgstr "نام کاربری"
+
+#: accounts/models.py:9
+msgid "fullname"
+msgstr "نام و نام خانوادگی"
+
+#: accounts/models.py:10 core/models.py:9
+msgid "phone number"
+msgstr "شماره موبایل"
+
+#: accounts/models.py:11
+msgid "email"
+msgstr "ایمیل"
+
+#: accounts/models.py:12
+msgid "address"
+msgstr "آدرس"
+
+#: accounts/models.py:13
+msgid "post code"
+msgstr ""
+
+#: accounts/models.py:14 blog/models.py:16 blog/models.py:40
+#: catalogue/models.py:15 catalogue/models.py:71 catalogue/models.py:185
+#: core/models.py:29
+msgid "image"
+msgstr ""
+
+#: accounts/models.py:15
+msgid "score"
+msgstr ""
+
+#: accounts/models.py:16
+msgid "notification active"
+msgstr ""
+
+#: accounts/models.py:17
+msgid "is admin"
+msgstr ""
+
+#: accounts/models.py:18 blog/models.py:45 blog/models.py:68
+#: catalogue/models.py:82 catalogue/models.py:215 catalogue/models.py:234
+#: notification/models.py:40
+msgid "is active"
+msgstr ""
+
+#: accounts/models.py:19 blog/models.py:17 blog/models.py:43 blog/models.py:69
+#: catalogue/models.py:19 catalogue/models.py:37 catalogue/models.py:216
+#: core/models.py:14 core/models.py:30 notification/models.py:43
+#: order/models.py:45
+msgid "created"
+msgstr ""
+
+#: accounts/models.py:20 blog/models.py:44 order/models.py:46
+msgid "modified"
+msgstr ""
+
+#: accounts/models.py:29
+msgid "User"
+msgstr ""
+
+#: accounts/models.py:30
+msgid "Users"
+msgstr ""
+
+#: accounts/validators.py:9 accounts/validators.py:11 core/forms.py:34
+msgid "Invalid phone number."
+msgstr ""
+
+#: basket/apps.py:8
+msgid "Basket"
+msgstr ""
+
+#: basket/forms.py:70
+msgid "Discount code"
+msgstr ""
+
+#: basket/forms.py:84
+msgid "This code is a privacy code and you do not own it."
+msgstr ""
+
+#: basket/forms.py:87 basket/forms.py:91
+msgid "Invalid discount code."
+msgstr ""
+
+#: blog/apps.py:8
+msgid "Blog"
+msgstr ""
+
+#: blog/forms.py:8 catalogue/forms.py:9
+msgid "Write your overview..."
+msgstr ""
+
+#: blog/models.py:13 catalogue/models.py:12 catalogue/models.py:183
+#: core/models.py:8
+msgid "name"
+msgstr ""
+
+#: blog/models.py:14 catalogue/models.py:13 catalogue/models.py:35
+#: catalogue/models.py:156
+msgid "english name"
+msgstr ""
+
+#: blog/models.py:15 blog/models.py:36 catalogue/models.py:14
+#: catalogue/models.py:36 catalogue/models.py:63 catalogue/models.py:157
+msgid "slug"
+msgstr ""
+
+#: blog/models.py:21
+msgid "Category"
+msgstr ""
+
+#: blog/models.py:22
+msgid "Categories"
+msgstr ""
+
+#: blog/models.py:33 catalogue/models.py:22 catalogue/models.py:49
+msgid "category"
+msgstr ""
+
+#: blog/models.py:34 catalogue/models.py:61 core/models.py:27
+#: notification/models.py:33
+msgid "title"
+msgstr ""
+
+#: blog/models.py:35 catalogue/models.py:62
+msgid "english title"
+msgstr ""
+
+#: blog/models.py:37
+msgid "author"
+msgstr ""
+
+#: blog/models.py:38
+msgid "time to read"
+msgstr ""
+
+#: blog/models.py:39 catalogue/models.py:68
+msgid "meta description"
+msgstr ""
+
+#: blog/models.py:41
+msgid "image for detail"
+msgstr ""
+
+#: blog/models.py:42 catalogue/models.py:210
+msgid "body"
+msgstr ""
+
+#: blog/models.py:52
+msgid "Post"
+msgstr ""
+
+#: blog/models.py:53
+msgid "Posts"
+msgstr ""
+
+#: blog/models.py:64
+msgid "post"
+msgstr ""
+
+#: blog/models.py:65 catalogue/models.py:196 catalogue/models.py:208
+#: catalogue/models.py:240 notification/models.py:32 order/models.py:36
+msgid "user"
+msgstr ""
+
+#: blog/models.py:66 core/models.py:11 notification/models.py:35
+msgid "message"
+msgstr ""
+
+#: blog/models.py:67 catalogue/models.py:214
+msgid "is read"
+msgstr ""
+
+#: blog/models.py:77
+msgid "Post comment"
+msgstr ""
+
+#: blog/models.py:78
+msgid "Post Comments"
+msgstr ""
+
+#: catalogue/apps.py:8
+msgid "Catalogue"
+msgstr ""
+
+#: catalogue/models.py:17
+msgid "parent"
+msgstr ""
+
+#: catalogue/models.py:18
+msgid "is child"
+msgstr ""
+
+#: catalogue/models.py:23 catalogue/models.py:142
+msgid "categories"
+msgstr ""
+
+#: catalogue/models.py:34 catalogue/models.py:40 catalogue/models.py:48
+#: catalogue/models.py:64
+msgid "brand"
+msgstr ""
+
+#: catalogue/models.py:41
+msgid "brands"
+msgstr ""
+
+#: catalogue/models.py:52
+msgid "brand category"
+msgstr ""
+
+#: catalogue/models.py:53
+msgid "brand categories"
+msgstr ""
+
+#: catalogue/models.py:60
+msgid "upc code"
+msgstr ""
+
+#: catalogue/models.py:65 catalogue/models.py:172
+msgid "count"
+msgstr ""
+
+#: catalogue/models.py:66
+msgid "purchase count"
+msgstr ""
+
+#: catalogue/models.py:67 core/models.py:28
+msgid "description"
+msgstr ""
+
+#: catalogue/models.py:69
+msgid "price for me"
+msgstr ""
+
+#: catalogue/models.py:70
+msgid "price"
+msgstr ""
+
+#: catalogue/models.py:72
+msgid "video"
+msgstr ""
+
+#: catalogue/models.py:75 catalogue/models.py:233
+msgid "discount"
+msgstr ""
+
+#: catalogue/models.py:77
+msgid "discount expire"
+msgstr ""
+
+#: catalogue/models.py:78
+msgid "is box"
+msgstr ""
+
+#: catalogue/models.py:79
+msgid "is new"
+msgstr ""
+
+#: catalogue/models.py:80 order/models.py:43
+msgid "is special"
+msgstr ""
+
+#: catalogue/models.py:81
+msgid "is colorful"
+msgstr ""
+
+#: catalogue/models.py:84 catalogue/models.py:217
+msgid "updated"
+msgstr ""
+
+#: catalogue/models.py:91 catalogue/models.py:184 catalogue/models.py:197
+#: catalogue/models.py:209 core/models.py:26 order/models.py:94
+msgid "product"
+msgstr ""
+
+#: catalogue/models.py:92 catalogue/models.py:144 catalogue/models.py:171
+msgid "products"
+msgstr ""
+
+#: catalogue/models.py:147
+msgid "products category"
+msgstr ""
+
+#: catalogue/models.py:148
+msgid "products categories"
+msgstr ""
+
+#: catalogue/models.py:155
+msgid "color"
+msgstr ""
+
+#: catalogue/models.py:158 catalogue/models.py:232
+msgid "code"
+msgstr ""
+
+#: catalogue/models.py:161
+msgid "Color"
+msgstr ""
+
+#: catalogue/models.py:162
+msgid "Colors"
+msgstr ""
+
+#: catalogue/models.py:170
+msgid "colors"
+msgstr ""
+
+#: catalogue/models.py:175 order/models.py:113
+msgid "product color"
+msgstr ""
+
+#: catalogue/models.py:176
+msgid "product colors"
+msgstr ""
+
+#: catalogue/models.py:188
+msgid "product image"
+msgstr ""
+
+#: catalogue/models.py:189
+msgid "product images"
+msgstr ""
+
+#: catalogue/models.py:200
+msgid "product favorite"
+msgstr ""
+
+#: catalogue/models.py:201
+msgid "product favorites"
+msgstr ""
+
+#: catalogue/models.py:212
+msgid "rate"
+msgstr ""
+
+#: catalogue/models.py:224
+msgid "product comment"
+msgstr ""
+
+#: catalogue/models.py:225
+msgid "product comments"
+msgstr ""
+
+#: catalogue/models.py:235 notification/models.py:42
+msgid "expire time"
+msgstr ""
+
+#: catalogue/models.py:236
+msgid "is have limit"
+msgstr ""
+
+#: catalogue/models.py:237
+msgid "time for use"
+msgstr ""
+
+#: catalogue/models.py:239
+msgid "is private"
+msgstr ""
+
+#: catalogue/models.py:247
+msgid "Discount"
+msgstr ""
+
+#: catalogue/models.py:248
+msgid "Discounts"
+msgstr ""
+
+#: core/apps.py:8
+msgid "Core"
+msgstr ""
+
+#: core/forms.py:9
+msgid "Your website name(optional)"
+msgstr ""
+
+#: core/forms.py:17
+msgid "Your name"
+msgstr ""
+
+#: core/forms.py:19
+msgid "Write thing..."
+msgstr ""
+
+#: core/forms.py:24
+msgid "Name field must be less than 32 character."
+msgstr ""
+
+#: core/forms.py:30
+msgid "Invalid phone number"
+msgstr ""
+
+#: core/forms.py:39
+msgid "Your website address must be less than 50 character."
+msgstr ""
+
+#: core/models.py:10
+msgid "website"
+msgstr ""
+
+#: core/models.py:12
+msgid "read or unread"
+msgstr ""
+
+#: core/models.py:13
+msgid "active or deactive"
+msgstr ""
+
+#: core/models.py:17
+msgid "Contact"
+msgstr ""
+
+#: core/models.py:18
+msgid "Contacts"
+msgstr ""
+
+#: core/models.py:34
+msgid "Slider"
+msgstr ""
+
+#: core/models.py:35
+msgid "Sliders"
+msgstr ""
+
+#: core/models.py:42
+msgid "about us"
+msgstr ""
+
+#: core/models.py:43
+msgid "contact us"
+msgstr ""
+
+#: core/models.py:49
+msgid "Site setting"
+msgstr ""
+
+#: core/models.py:50
+msgid "Site settings"
+msgstr ""
+
+#: notification/apps.py:8 notification/models.py:50
+msgid "Notification"
+msgstr ""
+
+#: notification/models.py:36
+msgid "link"
+msgstr ""
+
+#: notification/models.py:37
+msgid "is see"
+msgstr ""
+
+#: notification/models.py:38
+msgid "is sms"
+msgstr ""
+
+#: notification/models.py:39
+msgid "is send"
+msgstr ""
+
+#: notification/models.py:41
+msgid "time to send"
+msgstr ""
+
+#: notification/models.py:51
+msgid "Notifications"
+msgstr ""
+
+#: order/apps.py:8 order/models.py:53
+msgid "Order"
+msgstr ""
+
+#: order/forms.py:9
+msgid "Tracking code"
+msgstr ""
+
+#: order/forms.py:25
+msgid "Invalid tracking code."
+msgstr ""
+
+#: order/models.py:37
+msgid "authority"
+msgstr ""
+
+#: order/models.py:38
+msgid "ref id"
+msgstr ""
+
+#: order/models.py:39
+msgid "status"
+msgstr ""
+
+#: order/models.py:40
+msgid "discount code"
+msgstr ""
+
+#: order/models.py:42
+msgid "need checkout"
+msgstr ""
+
+#: order/models.py:44
+msgid "special price"
+msgstr ""
+
+#: order/models.py:54
+msgid "Orders"
+msgstr ""
+
+#: order/models.py:93
+msgid "order"
+msgstr ""
+
+#: order/models.py:95 order/models.py:114
+msgid "quantity"
+msgstr ""
+
+#: order/models.py:101
+msgid "Order Item"
+msgstr ""
+
+#: order/models.py:102
+msgid "Order Items"
+msgstr ""
+
+#: order/models.py:112
+msgid "order oitem"
+msgstr ""
+
+#: order/models.py:117
+msgid "order item color"
+msgstr ""
+
+#: order/models.py:118
+msgid "order item colors"
+msgstr ""

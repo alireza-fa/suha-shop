@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>گمشده در فضا</title>
+	<link type="text/css" href="{% static '404/css/style.css' %}" rel="stylesheet" />
+</head>
+<body class="bg-purple">
+	<div class="stars">
+		<!-- end logo and menu -->
+		<!-- start content -->
+		<div class="central-body">
+			<img class="image-404" src="{% static '404/pics/404.png' %}" width="300px" alt="image 404">
+			<a href="{% url 'core:home' %}" title="Home" class="btn-go-home">بازگشت به خانه</a>
+		</div>
+		<div class="objects">
+			<img class="object_rocket" src="{% static '404/pics/rocket.svg' %}" width="40px" alt="rocket">
+			<div class="earth-moon">
+				<img class="object_earth" src="{% static '404/pics/earth.svg' %}" width="100px" alt="earth">
+				<img class="object_moon" src="{% static '404/pics/moon.svg' %}" width="80px" alt="moon">
+			</div>
+			<div class="box_astronaut">
+				<img class="object_astronaut" src="{% static '404/pics/astronaut.svg' %}" width="140px" alt="astronaut">
+			</div>
+		</div>
+		<div class="glowing_stars">
+			<div class="star"></div>
+			<div class="star"></div>
+			<div class="star"></div>
+			<div class="star"></div>
+			<div class="star"></div>
+		</div>
+		<!-- end content -->
+	</div>
+	<script src="{% static '404/js/jquery-3.1.1.min.js' %}"></script>
+</body><!-- This template has been downloaded from Webrubik.com -->
+</html>
