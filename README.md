@@ -39,6 +39,15 @@ Technologies and tools:
   - Nginx
   - Celery
   - i18n
+  
+Server/Back-End development
+ - Django
+Django is a web application development framework for Python that allows you to develop projects as quickly as possible with the utmost security and processing speed.
+
+Database development
+Database is a regular member in software development science. It is very important to know what database you are using, because the speed of development and processing speed of your work is very much dependent on it.
+
+ - PostgreSQL
 
 بسم الله الرحمن الرحیم
 
