@@ -42,6 +42,7 @@ Technologies and tools:
   
 Server/Back-End development
  - Django
+ 
 Django is a web application development framework for Python that allows you to develop projects as quickly as possible with the utmost security and processing speed.
 
 Database development
